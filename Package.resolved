@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "infinitescrollcollectionview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jokerphuongnam/InfiniteScrollCollectionView.git",
+      "state" : {
+        "revision" : "d88b2580b65db6fa114a3acbeb9bdc08f083614f",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
