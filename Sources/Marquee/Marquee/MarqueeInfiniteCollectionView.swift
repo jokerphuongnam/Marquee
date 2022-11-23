@@ -68,6 +68,7 @@ open class MarqueeInfiniteCollectionView: InfiniteScrollCollectionView {
                 self.movePointAmountForTimerInterval = floorMovePointAmountForTimerInterval
             }
             timerInterval = movePointAmountForTimerInterval / movePointForOneSeconds
+            timerInterval /= (autoScrollSpeed > 0 && autoScrollSpeed < 1) ? autoScrollSpeed : 1
         }
         
         setupTimer()
