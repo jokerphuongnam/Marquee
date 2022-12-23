@@ -104,7 +104,7 @@ open class MarqueeInfiniteCollectionView: InfiniteScrollCollectionView {
             x: scrollView.contentOffset.x + (isHorizontalScroll ? movePointAmountForTimerInterval : 0),
             y: scrollView.contentOffset.y + (isHorizontalScroll ? 0 : movePointAmountForTimerInterval)
         )
-        scrollView.contentOffset = nextContentOffset
+        scrollView.setContentOffset(nextContentOffset, animated: true)
     }
     
     @objc private func timerDidFire() {
